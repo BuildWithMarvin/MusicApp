@@ -1,0 +1,34 @@
+# Visual Studio Build-Verzeichnisse
+bin/
+obj/
+
+# Benutzerbezogene Dateien
+*.user
+*.suo
+
+# Visual Studio Projektdateien
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+*.snupkg
+
+# Temporäre Dateien
+*.log
+*.tmp
+*.cache
+
+# macOS und Linux
+.DS_Store
+*.swp
+
+# Backup-Dateien
+*.bak
+*.old
+
+# App-Einstellungen
+appsettings.*.json

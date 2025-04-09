@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "MusicApp2": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "URL": "https://asooseoijjjmpopaypog.supabase.co",
+        "KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFzb29zZW9pampqbXBvcGF5cG9nIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzkwOTI4NDUsImV4cCI6MjA1NDY2ODg0NX0.9HzViASPLWsOaqI1LcJeT2q9AHASu3tChLmgmbBsImU"
+      }
+    },
+    "Profil \"1\"": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "URL": "https://asooseoijjjmpopaypog.supabase.co",
+        "Key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFzb29zZW9pampqbXBvcGF5cG9nIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzkwOTI4NDUsImV4cCI6MjA1NDY2ODg0NX0.9HzViASPLWsOaqI1LcJeT2q9AHASu3tChLmgmbBsImU"
+      }
+    }
+  }
+}
