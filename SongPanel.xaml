@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="MusicApp2.SongPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MusicApp2"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.4*"/>
+                    <ColumnDefinition Width="0.6*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Linkes Panel -->
+                <StackPanel Grid.Column="0" x:Name="leftPanel" Visibility="Hidden" Margin="10">
+                    <Image x:Name="AlbumPic" Source="C:\Users\othry\Desktop\MusicApp\Bilder\AppIcon.png"
+                           MaxWidth="300" MaxHeight="300"
+                           VerticalAlignment="Top" Margin="10" Stretch="Uniform"/>
+                    <Label x:Name="leftPanelLabel" Content="Linkes Panel"
+                           FontSize="18" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                    <Label x:Name="leftPanelsubLabel" Content="Linkes Panel"
+        FontSize="18" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                </StackPanel>
+
+                <!-- Rechte Panels Container -->
+                <StackPanel Grid.Column="1" x:Name="rightPanelContainer"  Margin="10">
+                    <!-- Erstes rechtes Panel -->
+                    <StackPanel x:Name="rightPanel1" Visibility="Hidden" Margin="0,10,0,10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image x:Name="Label1Pic" Grid.Column="0" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                                   MaxWidth="100" MaxHeight="60" Margin="0,0,10,0" Stretch="Uniform"/>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                <Label x:Name="rightLabel1" MouseLeftButtonDown="rightLabel1_MouseLeftButtonDown" Content="Titel 1" FontSize="14" Tag="{Binding DatabaseId}"/>
+                                <Label x:Name="rightSubLabel1"   Content="Untertitel 1" FontSize="12"/>
+
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Zweites rechtes Panel -->
+                    <StackPanel x:Name="rightPanel2" Margin="0,10,0,10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image x:Name="Label2Pic" Grid.Column="0" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                                   MaxWidth="100" MaxHeight="60" Margin="0,0,10,0" Stretch="Uniform"/>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                <Label x:Name="rightLabel2" MouseLeftButtonDown="rightLabel2_MouseLeftButtonDown" Content="Titel 1" FontSize="14"/>
+                                <Label x:Name="rightSubLabel2" Content="Untertitel 1" FontSize="12"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Drittes rechtes Panel -->
+                    <StackPanel x:Name="rightPanel3" Margin="0,10,0,10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image x:Name="Label3Pic" Grid.Column="0" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                                   MaxWidth="100" MaxHeight="60" Margin="0,0,10,0" Stretch="Uniform"/>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                <Label x:Name="rightLabel3" MouseLeftButtonDown="rightLabel3_MouseLeftButtonDown" Content="Titel 1" FontSize="14"/>
+                                <Label x:Name="rightSubLabel3" Content="Untertitel 1" FontSize="12"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Viertes rechtes Panel -->
+                    <StackPanel x:Name="rightPanel4" Margin="0,10,0,10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image x:Name="Label4Pic" Grid.Column="0" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                                   MaxWidth="100" MaxHeight="60" Margin="0,0,10,0" Stretch="Uniform"/>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                <Label x:Name="rightLabel4" MouseLeftButtonDown="rightLabel4_MouseLeftButtonDown" Content="Titel 1" FontSize="14"/>
+                                <Label x:Name="rightSubLabel4" Content="Untertitel 1" FontSize="12"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
