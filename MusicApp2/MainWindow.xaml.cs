@@ -20,7 +20,7 @@ namespace MusicApp2
         {
            InitializeComponent();
             Id = pId;
-            ProposalPanelControl.SetTrackPlaysPanel(Id);
+            ProposalPanelControl.createMusicPanels(Id);
         
         }
 
@@ -31,13 +31,18 @@ namespace MusicApp2
             if (!string.IsNullOrWhiteSpace(SearchTextBox.Text))
             {
                 SearchValue sv = new SearchValue(SearchTextBox.Text);
-                DisplResultsByValue(sv, Id);
+                
                 //FügePanelZumGrid(Grid2);
                 ProposalPanelControl.Visibility = Visibility.Collapsed;
+                  bool result = await DisplResultsByValue(sv, Id);
+                if (result == false) {
+                    ProposalPanelControl.createMusicPanels(Id);
+                }
             }
             else
             {
-                ProposalPanelControl.Visibility = Visibility.Visible;
+                ProposalPanelControl.createMusicPanels(Id);
+                //ProposalPanelControl.Visibility = Visibility.Visible;
                 songPanelControl.Visibility = Visibility.Collapsed;
                 TestPanelControl.Visibility = Visibility.Collapsed;
                 //FügePanelZumGrid(Grid2);

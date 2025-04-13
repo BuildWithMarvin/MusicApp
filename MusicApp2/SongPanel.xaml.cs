@@ -26,23 +26,20 @@ namespace MusicApp2
 
         public string UserID;
         Profiles profiles;
-       
-        public async void SetPanel(SearchValue sv, string pUserID)
+
+        public async Task<bool> SetPanel(SearchValue sv, string pUserID)
         {
+            
             UserID = pUserID;
 
-            if(profiles == null)
-            { 
-                profiles = await db.GetUserID(UserID);
+            if (profiles == null)
+            {
+                profiles = await  db.GetUserID(UserID);
                 if (profiles == null)
-                { 
+                {
                     db.NewProfile(UserID);
                 }
-                
-            
             }
-
-           
             List<Album> liAlb = new List<Album>();
             List<Track> liTra = new List<Track>();
             liTra = await db.GetTracksByValue(sv);
@@ -51,12 +48,16 @@ namespace MusicApp2
             if (liAlb.Count == 0 && liTra.Count == 0)
             {
                 this.Visibility = Visibility.Collapsed;
+                return false;
+                
             }
             else
             {
+                
                 this.Visibility = Visibility.Visible;
                 SetAlbumPanel(liAlb);
                 SetTracksPanel(liTra);
+                return true;
             }
 
         }
@@ -90,7 +91,13 @@ namespace MusicApp2
                             }
                             else
                             {
-                                AlbumPic.Visibility = Visibility.Hidden;
+                                SetAlbumContent(album);
+                                imagePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "images\\AppIcon.png");
+                                var bitmap = new BitmapImage();
+                                bitmap.BeginInit();
+                                bitmap.UriSource = new Uri(imagePath, UriKind.Absolute);
+                                bitmap.EndInit();
+                                AlbumPic.Source = bitmap;
                             }
                         }
                         else
@@ -99,6 +106,10 @@ namespace MusicApp2
                         }
                     }
                 }
+            }
+            else
+            {
+                this.leftPanel.Visibility = Visibility.Collapsed;
             }
         }
         public async void SetAlbumContent(Album al)
@@ -116,7 +127,7 @@ namespace MusicApp2
 
             if (liTra.Count > 0)
             {
-
+                this.rightPanelContainer.Visibility = Visibility.Visible;
                 foreach (Track track in liTra)
                 {
 
@@ -142,10 +153,12 @@ namespace MusicApp2
                     i++;
                 }
             }
+            else
+            {
+                this.rightPanelContainer.Visibility = Visibility.Collapsed;
+            }
         }
-
-
-        public async void SetRightSubPanels(int a, Track tr)
+      public async void SetRightSubPanels(int a, Track tr)
         {
             rightPanel1.Visibility = Visibility.Hidden;
             rightPanel2.Visibility = Visibility.Hidden;
@@ -187,10 +200,7 @@ namespace MusicApp2
                         rightSubLabel4.Content = artist.name;
                         break;
                 }
-            }
-
-        }
-
+            }}
         public async void SetPicturesRightSubPanels(int a, Track tr)
         {
             Album album = await db.GetAlbumByID(tr.albID);
@@ -227,8 +237,8 @@ namespace MusicApp2
 
         private void rightLabel1_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            
-           db.UpsertTrackPlay(UserID, trackid);
+
+            db.UpsertTrackPlay(UserID, trackid);
         }
 
         private void rightLabel2_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

@@ -17,8 +17,9 @@
         <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="0.5*"/>
-                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.33*"/>
+                    <RowDefinition Height="0.33*"/>
+                    <RowDefinition Height="0.33*"/>
                 </Grid.RowDefinitions>
 
                 <!-- Oberes Panel (ehemals linkes Panel) -->
@@ -34,10 +35,10 @@
                         </StackPanel>
 
                         <StackPanel Margin="10,0,10,0">
-                            <Image x:Name="Label1Pic" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                            <Image x:Name="Label1Pic" Source="images\AppIcon.png"
                    MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform"/>
                             <StackPanel VerticalAlignment="Center">
-                                <Label x:Name="Label1" FontSize="14" HorizontalAlignment="Center" Content="Titel"  Style="{StaticResource MyLabelStyle}"/>
+                                <Label x:Name="Label1" FontSize="14" HorizontalAlignment="Center" Content="Titel"  Style="{StaticResource MyLabelStyle}" MouseLeftButtonDown="Label1_MouseLeftButtonDown"/>
                                 <Label x:Name="SubLabel1" Content="Untertitel" FontSize="12" HorizontalAlignment="Center"  Style="{StaticResource MyLabelStyle}"/>
                             </StackPanel>
                         </StackPanel>
@@ -48,7 +49,7 @@
                    MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform"/>
                             <StackPanel VerticalAlignment="Center">
                                 <Label x:Name="Label2"  
-                       Content="Titel 1" FontSize="14" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                       Content="Titel 1" FontSize="14" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}" MouseLeftButtonDown="Label2_MouseLeftButtonDown"/>
                                 <Label x:Name="SubLabel2" Content="Untertitel 1" FontSize="12" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
                             </StackPanel>
                         </StackPanel>
@@ -58,7 +59,7 @@
                             <Image Source="images\AppIcon.png"
                    MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="Label3Pic"/>
                             <StackPanel VerticalAlignment="Center">
-                                <Label Content="Titel 2" x:Name="Label3" FontSize="14" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                <Label Content="Titel 2" x:Name="Label3" FontSize="14" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}" MouseLeftButtonDown="Label3_MouseLeftButtonDown"/>
                                 <Label Content="Untertitel 2" x:Name="SubLabel3" FontSize="12" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
                             </StackPanel>
                         </StackPanel>
@@ -67,8 +68,26 @@
                             <Image Source="images\AppIcon.png"
 MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="Label4Pic"/>
                             <StackPanel VerticalAlignment="Center">
-                                <Label Content="Titel 2" FontSize="14" x:Name="Label4" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                <Label Content="Titel 2" FontSize="14" x:Name="Label4" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}" MouseLeftButtonDown="Label4_MouseLeftButtonDown"/>
                                 <Label Content="Untertitel 2" FontSize="12" x:Name="SubLabel4" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel Margin="10,0,10,0" x:Name="Panel4">
+                            <Image x:Name="Label5Pic" Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform"/>
+                            <StackPanel VerticalAlignment="Center">
+                                <Label x:Name="Label5" FontSize="14" HorizontalAlignment="Center" Content="Titel"  Style="{StaticResource MyLabelStyle}" MouseLeftButtonDown="Label5_MouseLeftButtonDown"/>
+                                <Label x:Name="SubLabel5" Content="Untertitel" FontSize="12" HorizontalAlignment="Center"  Style="{StaticResource MyLabelStyle}"/>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel Margin="10,0,10,0" x:Name="Panel5">
+                            <Image x:Name="Label6Pic" Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform"/>
+                            <StackPanel VerticalAlignment="Center">
+                                <Label x:Name="Label6" FontSize="14" HorizontalAlignment="Center" Content="Titel"  Style="{StaticResource MyLabelStyle}" MouseLeftButtonDown="Label6_MouseLeftButtonDown"/>
+                                <Label x:Name="SubLabel6" Content="Untertitel" FontSize="12" HorizontalAlignment="Center"  Style="{StaticResource MyLabelStyle}"/>
                             </StackPanel>
                         </StackPanel>
 
@@ -105,29 +124,106 @@ MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="AlbLab
                                     <Label Content="Untertitel 2" FontSize="12" x:Name="AlbSubLabel2" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
                                 </StackPanel>
                             </StackPanel>
-                            <StackPanel Margin="10,0,10,0" >
-                                <StackPanel VerticalAlignment="Center">
-                                    <Label Content="Songs&#x0a;für&#x0a;dich" Style="{StaticResource MyLabelStyle}" HorizontalAlignment="Center"/>
-                                </StackPanel>
-                            </StackPanel>
-                            <StackPanel Margin="10,0,10,0" x:Name="TrackPanel1">
+                            <StackPanel Margin="10,0,10,0" x:Name="AlbPanel3">
                                 <Image Source="images\AppIcon.png"
-MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="TrackLabel1Pic"/>
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="AlbLabel3Pic"/>
                                 <StackPanel VerticalAlignment="Center">
-                                    <Label Content="Titel 2" FontSize="14" x:Name="TrackLabel1" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
-                                    <Label Content="Untertitel 2" FontSize="12" x:Name="TrackSubLabel1" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    <Label Content="Titel 2" FontSize="14" x:Name="AlbLabel3" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    <Label Content="Untertitel 2" FontSize="12" x:Name="AlbSubLabel3" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
                                 </StackPanel>
                             </StackPanel>
-                            <StackPanel Margin="10,0,10,0" x:Name="TrackPanel2">
+                            <StackPanel Margin="10,0,10,0" x:Name="AlbPanel4">
                                 <Image Source="images\AppIcon.png"
-MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="TrackLabel2Pic"/>
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="AlbLabel4Pic"/>
                                 <StackPanel VerticalAlignment="Center">
-                                    <Label Content="Titel 2" FontSize="14" x:Name="TrackLabel2" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
-                                    <Label Content="Untertitel 2" FontSize="12" x:Name="TrackSubLabel2" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    <Label Content="Titel 2" FontSize="14" x:Name="AlbLabel4" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    <Label Content="Untertitel 2" FontSize="12" x:Name="AlbSubLabel4" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
                                 </StackPanel>
                             </StackPanel>
+                            <StackPanel Margin="10,0,10,0" x:Name="AlbPanel5">
+                                <Image Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="AlbLabel5Pic"/>
+                                <StackPanel VerticalAlignment="Center">
+                                    <Label Content="Titel 2" FontSize="14" x:Name="AlbLabel5" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    <Label Content="Untertitel 2" FontSize="12" x:Name="AlbSubLabel5" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Margin="10,0,10,0" x:Name="AlbPanel6">
+                                <Image Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="AlbLabel6Pic"/>
+                                <StackPanel VerticalAlignment="Center">
+                                    <Label Content="Titel 2" FontSize="14" x:Name="AlbLabel6" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    <Label Content="Untertitel 2" FontSize="12" x:Name="AlbSubLabel6" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                </StackPanel>
+                            </StackPanel>
+
                         </StackPanel>
-                        
+
+                        <Rectangle Height="5" 
+Fill="white" 
+Margin="10,10,10,10" 
+HorizontalAlignment="Stretch"/>
+                        <StackPanel Grid.Row="1" x:Name="lowerPanelContainer" Margin="10">
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel Margin="10,0,10,0" >
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Label Content="Songs&#x0a;für&#x0a;dich" Style="{StaticResource MyLabelStyle}" HorizontalAlignment="Center"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Margin="10,0,10,0" x:Name="TrackPanel1">
+                                    <Image Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="TrackLabel1Pic"/>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Label  Content="Titel 2" FontSize="14" x:Name="TrackLabel1" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                        <Label Content="Untertitel 2" FontSize="12" x:Name="TrackSubLabel1" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Margin="10,0,10,0" x:Name="TrackPanel2">
+                                    <Image Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="TrackLabel2Pic"/>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Label  Content="Titel 2" FontSize="14" x:Name="TrackLabel2" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                        <Label Content="Untertitel 2" FontSize="12" x:Name="TrackSubLabel2" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Margin="10,0,10,0" x:Name="TrackPanel3">
+                                    <Image Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="TrackLabel3Pic"/>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Label  Content="Titel 2" FontSize="14" x:Name="TrackLabel3" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                        <Label Content="Untertitel 2" FontSize="12" x:Name="TrackSubLabel3" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Margin="10,0,10,0" x:Name="TrackPanel4">
+                                    <Image Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="TrackLabel4Pic"/>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Label  Content="Titel 2" FontSize="14" x:Name="TrackLabel4" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                        <Label Content="Untertitel 2" FontSize="12" x:Name="TrackSubLabel4" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Margin="10,0,10,0" x:Name="TrackPanel5">
+                                    <Image Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="TrackLabel5Pic"/>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Label  Content="Titel 2" FontSize="14" x:Name="TrackLabel5" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                        <Label Content="Untertitel 2" FontSize="12" x:Name="TrackSubLabel5" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Margin="10,0,10,0" x:Name="TrackPanel6">
+                                    <Image Source="images\AppIcon.png"
+MaxWidth="100" MaxHeight="60" Margin="0,0,0,10" Stretch="Uniform" x:Name="TrackLabel6Pic"/>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Label  Content="Titel 2" FontSize="14" x:Name="TrackLabel6" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                        <Label Content="Untertitel 2" FontSize="12" x:Name="TrackSubLabel6" HorizontalAlignment="Center" Style="{StaticResource MyLabelStyle}"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+
+                            </StackPanel>
+
+
+                        </StackPanel>
                         <!-- Hier können Sie die Inhalte des ehemaligen rechten Panels einfügen -->
                     </StackPanel>
                 </StackPanel>

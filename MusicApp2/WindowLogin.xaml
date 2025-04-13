@@ -32,7 +32,7 @@
         </Border>
         <StackPanel Orientation="Horizontal">
             <StackPanel Width="350">
-                <Image Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png" Width="300" Height="300" VerticalAlignment="Top" Margin="30"  />
+                <Image Source="images\AppIcon.png" Width="300" Height="300" VerticalAlignment="Top" Margin="30"  />
 
             </StackPanel>
             <StackPanel Width="350">

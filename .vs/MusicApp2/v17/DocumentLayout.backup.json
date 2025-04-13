@@ -1,22 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\othry\\source\\repos\\MusicApp2\\",
+  "WorkspaceRootPath": "C:\\Users\\frank\\source\\repos\\MusicApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\othry\\source\\repos\\musicapp2\\musicapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\proposalswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\proposalswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\othry\\source\\repos\\musicapp2\\musicapp2\\librarypanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\librarypanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\songpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\songpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\othry\\source\\repos\\musicapp2\\musicapp2\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\mainwindow.displaymethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\mainwindow.displaymethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\proposalswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\proposalswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\othry\\source\\repos\\musicapp2\\musicapp2\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\songpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\songpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\trackjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\trackjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\trackplays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\trackplays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\testpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\testpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\albumjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\albumjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\windowlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\windowlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\searchvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\searchvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\windowlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\windowlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\profiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\profiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|c:\\users\\frank\\source\\repos\\musicapp2\\musicapp2\\librarypanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98580F5D-0A77-4B5E-B388-8D8E2EA0ED33}|MusicApp2\\MusicApp2.csproj|solutionrelative:musicapp2\\librarypanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +102,245 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.DisplayMethods.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\MainWindow.DisplayMethods.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\MainWindow.DisplayMethods.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\MainWindow.DisplayMethods.cs",
+              "RelativeToolTip": "MusicApp2\\MainWindow.DisplayMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:53:01.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProposalsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\ProposalsWindow.xaml",
+              "RelativeDocumentMoniker": "MusicApp2\\ProposalsWindow.xaml",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\ProposalsWindow.xaml",
+              "RelativeToolTip": "MusicApp2\\ProposalsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T18:15:21.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\othry\\source\\repos\\MusicApp2\\MusicApp2\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MusicApp2\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\othry\\source\\repos\\MusicApp2\\MusicApp2\\MainWindow.xaml",
-              "RelativeToolTip": "MusicApp2\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T17:26:08.933Z",
+              "Title": "ProposalsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\ProposalsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\ProposalsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\ProposalsWindow.xaml.cs",
+              "RelativeToolTip": "MusicApp2\\ProposalsWindow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAawDcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:53:42.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LibraryPanel.xaml",
-              "DocumentMoniker": "C:\\Users\\othry\\source\\repos\\MusicApp2\\MusicApp2\\LibraryPanel.xaml",
-              "RelativeDocumentMoniker": "MusicApp2\\LibraryPanel.xaml",
-              "ToolTip": "C:\\Users\\othry\\source\\repos\\MusicApp2\\MusicApp2\\LibraryPanel.xaml",
-              "RelativeToolTip": "MusicApp2\\LibraryPanel.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T17:25:56.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "database.cs",
-              "DocumentMoniker": "C:\\Users\\othry\\source\\repos\\MusicApp2\\MusicApp2\\database.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\database.cs",
               "RelativeDocumentMoniker": "MusicApp2\\database.cs",
-              "ToolTip": "C:\\Users\\othry\\source\\repos\\MusicApp2\\MusicApp2\\database.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\database.cs",
               "RelativeToolTip": "MusicApp2\\database.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAIAwwKUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T17:22:52.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\othry\\source\\repos\\MusicApp2\\MusicApp2\\User.cs",
-              "RelativeDocumentMoniker": "MusicApp2\\User.cs",
-              "ToolTip": "C:\\Users\\othry\\source\\repos\\MusicApp2\\MusicApp2\\User.cs",
-              "RelativeToolTip": "MusicApp2\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SongPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\SongPanel.xaml.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\SongPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\SongPanel.xaml.cs",
+              "RelativeToolTip": "MusicApp2\\SongPanel.xaml.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAawPAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T11:44:51.034Z",
+              "WhenOpened": "2025-04-09T18:54:22.6Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MusicApp2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:53:07.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrackJs.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\TrackJs.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\TrackJs.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\TrackJs.cs",
+              "RelativeToolTip": "MusicApp2\\TrackJs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:23:23.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrackPlays.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\TrackPlays.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\TrackPlays.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\TrackPlays.cs",
+              "RelativeToolTip": "MusicApp2\\TrackPlays.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:49:15.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\TestPanel.xaml.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\TestPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\TestPanel.xaml.cs",
+              "RelativeToolTip": "MusicApp2\\TestPanel.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:54:58.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SongPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\SongPanel.xaml",
+              "RelativeDocumentMoniker": "MusicApp2\\SongPanel.xaml",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\SongPanel.xaml",
+              "RelativeToolTip": "MusicApp2\\SongPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T18:59:47.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Track.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\Track.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\Track.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\Track.cs",
+              "RelativeToolTip": "MusicApp2\\Track.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:36:02.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\Artist.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\Artist.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\Artist.cs",
+              "RelativeToolTip": "MusicApp2\\Artist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:52:39.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AlbumJs.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\AlbumJs.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\AlbumJs.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\AlbumJs.cs",
+              "RelativeToolTip": "MusicApp2\\AlbumJs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:52:27.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MusicApp2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\MainWindow.xaml",
+              "RelativeToolTip": "MusicApp2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T17:26:08.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Profiles.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\Profiles.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\Profiles.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\Profiles.cs",
+              "RelativeToolTip": "MusicApp2\\Profiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:53:29.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WindowLogin.xaml",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\WindowLogin.xaml",
+              "RelativeDocumentMoniker": "MusicApp2\\WindowLogin.xaml",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\WindowLogin.xaml",
+              "RelativeToolTip": "MusicApp2\\WindowLogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T18:55:55.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\User.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\User.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\User.cs",
+              "RelativeToolTip": "MusicApp2\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:44:51.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SearchValue.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\SearchValue.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\SearchValue.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\SearchValue.cs",
+              "RelativeToolTip": "MusicApp2\\SearchValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:54:10.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WindowLogin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\WindowLogin.xaml.cs",
+              "RelativeDocumentMoniker": "MusicApp2\\WindowLogin.xaml.cs",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\WindowLogin.xaml.cs",
+              "RelativeToolTip": "MusicApp2\\WindowLogin.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:55:57.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LibraryPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\LibraryPanel.xaml",
+              "RelativeDocumentMoniker": "MusicApp2\\LibraryPanel.xaml",
+              "ToolTip": "C:\\Users\\frank\\source\\repos\\MusicApp2\\MusicApp2\\LibraryPanel.xaml",
+              "RelativeToolTip": "MusicApp2\\LibraryPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T17:25:56.318Z"
             }
           ]
         }

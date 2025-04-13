@@ -57,7 +57,7 @@ namespace MusicApp2
                 await InitializeAsync();
             }
 
-            var response = await _supabase.Rpc("get_random_albums", new { count = 2 });
+            var response = await _supabase.Rpc("get_random_albums", new { count = 6 });
 
             var albums = JsonConvert.DeserializeObject<List<AlbumJs>>(response.Content, new JsonSerializerSettings
             {
@@ -66,6 +66,24 @@ namespace MusicApp2
             });
 
             return albums;
+        }
+
+        public async Task<List<TrackJs>> GetTracksRandom()
+        {
+            if (_supabase == null)
+            {
+                await InitializeAsync();
+            }
+
+            var response = await _supabase.Rpc("get_random_tracks", new { count = 6 });
+
+            var tracks = JsonConvert.DeserializeObject<List<TrackJs>>(response.Content, new JsonSerializerSettings
+            {
+                MissingMemberHandling = MissingMemberHandling.Ignore,
+                NullValueHandling = NullValueHandling.Include
+            });
+
+            return tracks;
         }
 
 

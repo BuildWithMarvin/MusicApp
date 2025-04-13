@@ -9,9 +9,10 @@ namespace MusicApp2
 {
     public partial class MainWindow : Window
     {     
-        public async void DisplResultsByValue(SearchValue sv, string Id)
+        public async Task<bool> DisplResultsByValue(SearchValue sv, string Id)
         {
-            songPanelControl.SetPanel(sv, Id);
+            bool result =  await songPanelControl.SetPanel(sv, Id);
+            return result;
         }
     }
 }

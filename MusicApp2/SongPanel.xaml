@@ -19,8 +19,8 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Linkes Panel -->
-                <StackPanel Grid.Column="0" x:Name="leftPanel" Visibility="Hidden" Margin="10">
-                    <Image x:Name="AlbumPic" Source="C:\Users\othry\Desktop\MusicApp\Bilder\AppIcon.png"
+                <StackPanel Grid.Column="0" x:Name="leftPanel"  Margin="10">
+                    <Image x:Name="AlbumPic" Source="images\AppIcon.png"
                            MaxWidth="300" MaxHeight="300"
                            VerticalAlignment="Top" Margin="10" Stretch="Uniform"/>
                     <Label x:Name="leftPanelLabel" Content="Linkes Panel"
@@ -32,13 +32,13 @@
                 <!-- Rechte Panels Container -->
                 <StackPanel Grid.Column="1" x:Name="rightPanelContainer"  Margin="10">
                     <!-- Erstes rechtes Panel -->
-                    <StackPanel x:Name="rightPanel1" Visibility="Hidden" Margin="0,10,0,10">
+                    <StackPanel x:Name="rightPanel1"  Margin="0,10,0,10">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <Image x:Name="Label1Pic" Grid.Column="0" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                            <Image x:Name="Label1Pic" Grid.Column="0" Source="images\AppIcon.png"
                                    MaxWidth="100" MaxHeight="60" Margin="0,0,10,0" Stretch="Uniform"/>
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
                                 <Label x:Name="rightLabel1" MouseLeftButtonDown="rightLabel1_MouseLeftButtonDown" Content="Titel 1" FontSize="14" Tag="{Binding DatabaseId}"/>
@@ -55,7 +55,7 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <Image x:Name="Label2Pic" Grid.Column="0" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                            <Image x:Name="Label2Pic" Grid.Column="0" Source="images\AppIcon.png"
                                    MaxWidth="100" MaxHeight="60" Margin="0,0,10,0" Stretch="Uniform"/>
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
                                 <Label x:Name="rightLabel2" MouseLeftButtonDown="rightLabel2_MouseLeftButtonDown" Content="Titel 1" FontSize="14"/>
@@ -71,7 +71,7 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <Image x:Name="Label3Pic" Grid.Column="0" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                            <Image x:Name="Label3Pic" Grid.Column="0" Source="images\AppIcon.png"
                                    MaxWidth="100" MaxHeight="60" Margin="0,0,10,0" Stretch="Uniform"/>
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
                                 <Label x:Name="rightLabel3" MouseLeftButtonDown="rightLabel3_MouseLeftButtonDown" Content="Titel 1" FontSize="14"/>
@@ -87,7 +87,7 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <Image x:Name="Label4Pic" Grid.Column="0" Source="C:\Users\othry\source\repos\MusicApp2\MusicApp2\images\AppIcon.png"
+                            <Image x:Name="Label4Pic" Grid.Column="0" Source="images\AppIcon.png"
                                    MaxWidth="100" MaxHeight="60" Margin="0,0,10,0" Stretch="Uniform"/>
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
                                 <Label x:Name="rightLabel4" MouseLeftButtonDown="rightLabel4_MouseLeftButtonDown" Content="Titel 1" FontSize="14"/>
